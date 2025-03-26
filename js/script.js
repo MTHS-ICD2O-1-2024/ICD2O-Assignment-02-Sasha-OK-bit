@@ -14,9 +14,11 @@ function calculatebutton() {
   const Base = parseFloat(document.getElementById("B").value)
   const Height = parseFloat(document.getElementById("H").value);
   let A = Base * Height
+  let Answer
 
   document.getElementById('Area').innerHTML =
     `A is: ${A.toFixed(2)} <br>
-    ...: ${takeHomeSalary.toFixed(2)}`
+    Answer: ${Answer.toFixed(2)}`
+
 
 }
