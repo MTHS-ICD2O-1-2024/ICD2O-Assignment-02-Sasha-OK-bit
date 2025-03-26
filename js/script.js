@@ -18,7 +18,7 @@ function calculatebutton() {
 
   document.getElementById('Area').innerHTML =
     `A is: ${A.toFixed(2)} <br>
-    Answer: ${Answer.toFixed(2)}`
+    Answer: ${Answer}`
 
 
 }
