@@ -11,10 +11,10 @@
 */
 function calculatebutton() {
   // input
-  const Base = parseFloat(document.getElementById("b").value)
+  const Base = parseFloat(document.getElementById("B").value)
   const Height = parseFloat(document.getElementById("H").value);
   let A = B * H
-  document.getElementById('answer1').innerHTML =
+  document.getElementById('Area').innerHTML =
   `A is: ${A.toFixed(2)} <br>
   ...: ${takeHomeSalary.toFixed(2)}`
 
